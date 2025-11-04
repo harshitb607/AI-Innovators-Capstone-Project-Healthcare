@@ -1,0 +1,28 @@
+Problem Definition – MedQuery AI
+
+Problem Statement:
+Doctors and healthcare professionals spend a significant portion of their time navigating complex electronic health record (EHR) systems to retrieve patient information. 
+This repetitive process leads to administrative fatigue, reduced time for direct patient interaction, and increased risk of oversight during consultations.
+
+Product Concept:
+MedQuery AI is an intelligent assistant that allows doctors to retrieve patient data and reports using natural language commands (text or voice).
+
+Example:
+
+“Show me Mr. X’s ECG from 2021.”
+“Summarize John’s last three lab reports.”
+
+The AI processes these requests, accesses the relevant medical files, and returns concise, organized information — securely and quickly — so clinicians can focus more on patient care.
+
+How AI is Applied:
+1. Natural Language Processing (NLP): Interprets voice/text queries to understand what data the doctor is requesting.
+2. Information Retrieval Algorithms: Searches authorized patient databases for matching records.
+3. Summarization Model: (Optional) Briefly summarizes reports using transformer-based text summarization.
+4. Training: Supervised fine-tuning on anonymized medical query datasets (e.g., MIMIC-III, synthetic EHRs).
+5. Output: Displays retrieved reports and summaries within seconds through a secure interface.
+
+Ethical Considerations:
+1. No diagnostic or decision-making capabilities.
+2. HIPAA-compliant, secure data handling.
+3. Transparent and auditable query logs.
+4. Bias-free, neutral language modeling.
