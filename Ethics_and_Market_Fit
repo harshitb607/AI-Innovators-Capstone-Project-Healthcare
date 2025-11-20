@@ -1,0 +1,40 @@
+# MedQuery AI – Ethics, Market Fit & User Focus
+
+## 1. Target Market & User Needs
+
+**Primary users:** Physicians, nurses, and clinicians in hospitals and large clinics.  
+**Secondary users:** Medical assistants and health information staff who support clinicians.
+
+**User pain points:**
+
+- Time wasted clicking through complex EHR menus to find old reports.
+- Cognitive load during busy clinics or emergencies.
+- Frustration with slow, non-intuitive search tools.
+
+MedQuery AI aims to reduce search time and friction so clinicians can spend more time with patients instead of fighting the EHR.
+
+---
+
+## 2. Ethics Overview
+
+Key ethical concerns:
+
+- **Privacy & confidentiality:** Patient data must be protected and access-controlled.
+- **Security:** All queries and retrieved records should be encrypted and logged.
+- **Transparency:** Users should know where each piece of information came from and when it was last updated.
+- **Human control:** Clinicians remain fully responsible for decisions; the tool only surfaces information.
+- **Reliability:** The system must fail safely (e.g., “no result found”) rather than hallucinate content.
+
+---
+
+## 3. Ethical Use Statement
+
+MedQuery AI is designed as a **clinical information assistant**, not a diagnostic or decision-making system.  
+It may only be used by **authorized healthcare staff** on secure, approved devices connected to the official EHR.
+
+- AI outputs (retrieved reports and summaries) are **supporting information** and must always be checked against the original records.
+- No diagnosis, treatment decision, or prescription should be based solely on MedQuery AI’s responses.
+- All queries and accesses will be logged so that inappropriate use can be audited.
+- The system will be configured to respect role-based access so users can only see records they are permitted to view.
+
+By following these principles, MedQuery AI aims to improve clinician workflow while respecting patient rights, privacy, and safety.
