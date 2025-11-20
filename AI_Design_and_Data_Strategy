@@ -1,0 +1,52 @@
+# MedQuery AI – AI Design & Data Strategy
+
+## 1. Chosen AI / ML Approach
+
+MedQuery AI will use **Natural Language Processing (NLP)** and **information retrieval** rather than predictive diagnosis.  
+Core components:
+
+- **Intent classification** – understand what the doctor is asking (e.g., “show ECG,” “summarize labs,” “compare reports”).
+- **Entity recognition** – identify patient name/ID, date ranges, and report types from the query.
+- **Retrieval module** – translate the parsed query into a database/EHR lookup.
+- **Optional summarization** – generate a short text summary of the retrieved report.
+
+This keeps the system focused on data access and workflow support, not medical decision-making.
+
+---
+
+## 2. Data Needs & Acquisition Plan
+
+**Data types**
+
+- De-identified clinical notes and reports (e.g., discharge summaries, lab reports, imaging summaries).
+- Synthetic “doctor query” sentences paired with the correct document(s) to retrieve.
+
+**Sources (for a class project)**
+
+- Public, de-identified datasets such as **MIMIC-III** or similar open EHR text.
+- Manually written or generated synthetic queries that reference those reports.
+- Simulated EHR table structure (patient ID, report type, date, short text).
+
+**Ethical notes**
+
+- Only use de-identified or synthetic data.
+- No real patient identifiers will be stored or shared in the project repo.
+
+---
+
+## 3. Model Limitations & Potential Risks
+
+- **Ambiguous queries** – the model may misinterpret unclear or incomplete requests.
+- **Name / date recognition errors** – NER mistakes could retrieve the wrong record.
+- **Access control** – in real deployment, improper permission checks could expose data.
+- **Language & accent limits** – performance may drop for non-standard phrasing.
+- **Summarization risk** – summaries might omit clinically important details.
+
+---
+
+## 4. Evaluation Plan (High Level)
+
+- Build a held-out set of doctor queries with the correct target documents.
+- Measure **retrieval accuracy** (did we return the right document?) and **precision@1**.
+- Track **response time** and basic **user-perceived usefulness** (simulated ratings).
+- For summarization, compare summaries to reference highlights for **content coverage**.
