@@ -1,28 +1,28 @@
-# AI-Innovators-Capstone-Project-Healthcare
-This is a repository for the team members of an AI Innovators Capstone Project. 
-AI Innovators Project – MedQuery AI
+# MedSight AI
 
-Domain: Healthcare & Wellness
-Proposed by: Harshit Barhay
+## Product Description
+MedSight AI is an intelligent clinical decision-support assistant designed to help doctors make safer, faster, and more informed medical decisions. The system analyzes patient symptoms, medical history, and clinical notes to generate insights, diagnostic suggestions, alerts, and summaries — all while keeping the doctor fully in control.
 
-Problem Statement:
-Doctors spend a significant portion of their time retrieving and managing patient data from electronic health record systems. This causes administrative burden, reduced patient time, and higher stress levels.
+## Pitch Structure
+### Problem
+Clinicians are overwhelmed with high patient loads, administrative tasks, and increasingly complex medical information. This leads to delays, oversight, and burnout.
 
-Concept Overview:
-MedQuery AI is an intelligent assistant that enables doctors to retrieve patient data and reports using natural voice or text queries. The AI understands commands like “Show me Mr. X’s ECG from 2021” or “Compare his cholesterol results between 2020–2023”, accesses the database securely, and displays the results in an easy-to-read format.
+### AI Solution
+MedSight AI uses NLP and medical knowledge graphs to identify key symptoms, flag risks, suggest diagnoses, and generate structured summaries.
 
-AI Application:
-1. Uses Natural Language Processing (NLP) for query understanding.
-2. Applies Information Retrieval to access structured/unstructured hospital data.
-3. Model trained on simulated EHR datasets (e.g., MIMIC-III).
-4. Designed for workflow enhancement, not diagnosis.
+### Market
+Hospitals, clinics, telehealth platforms, and independent practices needing efficiency, accuracy, and reduced administrative load.
 
-Ethical & Security Considerations:
-1. No medical decision-making.
-2. HIPAA-compliant handling of patient data (anonymized).
-3. Transparent data sourcing and access permissions.
+### Ethics
+- AI suggestions require physician confirmation  
+- Transparent, explainable output  
+- Privacy-first design (HIPAA compliant)  
+- Ongoing bias monitoring and dataset governance
 
-Next Steps:
-1. Finalize group roles and collaboration.
-2. Build a simple mockup interface (text-based or visual).
-3. Expand README to include ethics, data plan, and architecture diagram.
+## Mockups and logo ##Generative AI used for the logo and the mockup
+
+Logo:<img width="1142" height="761" alt="image" src="https://github.com/user-attachments/assets/ace23530-a162-4838-8dc8-9f745921c5e7" />
+Mockup: 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/01af4894-9e1c-4468-966e-ca795ccc39af" />
+
+
