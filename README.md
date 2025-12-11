@@ -63,6 +63,8 @@ Mockup:
 ##Accessing the Pitch Video and Slide Deck:
 
 Pitch Video: A recording has been submitted on Canvas
+
+
 Slide Deck (PDF/PPT): It has been uploaded to the Github Repository.
 
 
